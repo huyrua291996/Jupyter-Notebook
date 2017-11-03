@@ -1,0 +1,48 @@
+1509728275429	geckodriver	INFO	geckodriver 0.19.1
+1509728275429	geckodriver	INFO	Listening on 127.0.0.1:49172
+1509728275538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\huyru\\AppData\\Local\\Temp\\rust_mozprofile.LYcf6r18uFio"
+1509728275951	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509728276397	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11332] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13464] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13464] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509728277992	Marionette	INFO	Listening on port 49176
+1509728278188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509728278225	Marionette	DEBUG	Register listener.js for window 4294967297
+1509728283757	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509728284244	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509728284244	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
+1509728286162	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3487836"
+1509728291923	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3487836"
+1509728291963	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3487836"
+1509728292429	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3487836"
+1509728292430	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3487836"
+JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
+1509728292589	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1509728292590	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1509728292793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3487835"
+1509728298874	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3487835"
+1509728298902	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3487835"
+1509728299378	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3487835"
+1509728299380	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3487835"
+JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
+1509728299556	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1509728299557	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1509728299747	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3487834"
+1509728305514	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3487834"
+1509728305540	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3487834"
+1509728306017	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3487834"
+1509728306019	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3487834"
+JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
+1509728306190	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1509728306191	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967317"
+1509728306430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3482580"
+1509728312930	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3482580"
+1509728312962	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3482580"
+1509728313435	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3482580"
+1509728313436	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3482580"
+JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/review
