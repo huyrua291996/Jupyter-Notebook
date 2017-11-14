@@ -1,364 +1,357 @@
-1510134982558	geckodriver	INFO	geckodriver 0.19.1
-1510134982566	geckodriver	INFO	Listening on 127.0.0.1:57205
-1510134983139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\huyru\\AppData\\Local\\Temp\\rust_mozprofile.PLeYUDoWYcIb"
-1510134983564	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1510134984280	Marionette	INFO	Enabled via --marionette
+1510674162141	geckodriver	INFO	geckodriver 0.19.1
+1510674162156	geckodriver	INFO	Listening on 127.0.0.1:64026
+1510674162769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\huyru\\AppData\\Local\\Temp\\rust_mozprofile.KjGll2wWs1Ls"
+1510674163398	addons.manager	DEBUG	Application has been upgraded
+1510674163438	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1510674163442	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1510674163475	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1510674163478	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1510674163479	addons.manager	DEBUG	Starting provider: XPIProvider
+1510674163479	addons.xpi	DEBUG	startup
+1510674163479	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1510674163479	addons.xpi	INFO	Removing all system add-on upgrades.
+1510674163481	addons.xpi	DEBUG	checkForChanges
+1510674163482	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1510674163484	addons.xpi	DEBUG	Loaded add-on state: ${}
+1510674163486	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510674163487	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510674163487	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510674163487	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510674163487	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510674163488	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510674163488	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510674163488	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510674163489	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510674163489	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510674163490	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510674163490	addons.xpi	DEBUG	New add-on activity-stream@mozilla.org in app-system-defaults
+1510674163491	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510674163492	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1510674163492	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510674163492	addons.xpi	DEBUG	New add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1510674163493	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510674163493	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1510674163493	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510674163494	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1510674163494	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510674163494	addons.xpi	DEBUG	New add-on followonsearch@mozilla.com in app-system-defaults
+1510674163494	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510674163494	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1510674163495	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510674163495	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1510674163495	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510674163495	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1510674163495	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510674163496	addons.xpi	DEBUG	New add-on shield-recipe-client@mozilla.org in app-system-defaults
+1510674163496	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510674163496	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1510674163496	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510674163498	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510674163498	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1510674163498	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510674163498	addons.xpi	DEBUG	getInstallState changed: true, state: {}
+1510674163499	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1510674163507	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\huyru\AppData\Local\Temp\rust_mozprofile.KjGll2wWs1Ls\extensions.json
+1510674163508	addons.xpi-utils	DEBUG	New add-on activity-stream@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1510674163565	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163567	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1510674163582	DeferredSave.extensions.json	DEBUG	Starting timer
+1510674163584	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163584	addons.xpi-utils	DEBUG	New add-on clicktoplay-rollout@mozilla.org installed in app-system-defaults
+1510674163599	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163599	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1510674163616	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163616	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1510674163653	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163653	addons.xpi-utils	DEBUG	New add-on followonsearch@mozilla.com installed in app-system-defaults
+1510674163669	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163669	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1510674163704	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163704	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1510674163728	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163728	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1510674163745	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163746	addons.xpi-utils	DEBUG	New add-on shield-recipe-client@mozilla.org installed in app-system-defaults
+1510674163783	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163784	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1510674163805	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163806	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1510674163816	DeferredSave.extensions.json	DEBUG	Starting write
+1510674163821	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163821	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1510674163822	addons.manager	DEBUG	Registering startup change 'installed' for activity-stream@mozilla.org
+1510674163832	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510674163835	addons.xpi	DEBUG	Calling bootstrap method install on activity-stream@mozilla.org version 0.0.0
+1510674163835	addons.xpi-utils	DEBUG	Make addon app-system-defaults:activity-stream@mozilla.org visible
+1510674163836	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{8dda5f86-cad0-4b15-91ed-34e0b1f39803}","location":"app-system-defaults","version":"0.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776210,"updateDate":1508870776210,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":1280298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163839	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163839	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1510674163840	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510674163842	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1510674163842	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1510674163843	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{b5094c70-fb87-4034-bdc7-d927622d4327}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776210,"updateDate":1508870776210,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163843	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163843	addons.manager	DEBUG	Registering startup change 'installed' for clicktoplay-rollout@mozilla.org
+1510674163844	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510674163856	addons.xpi	DEBUG	Calling bootstrap method install on clicktoplay-rollout@mozilla.org version 1.4
+1510674163857	addons.xpi-utils	DEBUG	Make addon app-system-defaults:clicktoplay-rollout@mozilla.org visible
+1510674163857	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{eb00827b-904f-4e81-8700-3bdc78fcb4d1}","location":"app-system-defaults","version":"1.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776211,"updateDate":1508870776211,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5781,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163857	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163857	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1510674163858	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510674163860	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 3.00
+1510674163862	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1510674163862	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{8284f534-ddc5-4573-89c6-90b1b92cfa30}","location":"app-system-defaults","version":"3.00","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776211,"updateDate":1508870776211,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","skinnable":false,"size":13712,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163862	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163862	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1510674163863	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510674163868	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1510674163868	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1510674163869	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{549df3b5-622d-47e5-a190-e3378bbe9cbc}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776218,"updateDate":1508870776218,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":1002025,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163869	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163869	addons.manager	DEBUG	Registering startup change 'installed' for followonsearch@mozilla.com
+1510674163870	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510674163873	addons.xpi	DEBUG	Calling bootstrap method install on followonsearch@mozilla.com version 0.9.3
+1510674163873	addons.xpi-utils	DEBUG	Make addon app-system-defaults:followonsearch@mozilla.com visible
+1510674163873	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{3a661145-e19b-4a78-b681-446308fc027e}","location":"app-system-defaults","version":"0.9.3","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776219,"updateDate":1508870776219,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":16802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163873	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163874	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1510674163874	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510674163877	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1510674163877	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1510674163877	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{63833add-a8e5-421a-ba2b-2769a6ca4945}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776222,"updateDate":1508870776222,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":335807,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163878	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163878	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1510674163879	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510674163884	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 0.1
+1510674163884	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1510674163885	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{c5bd0e9a-eb52-4a79-a658-4dc5827fa056}","location":"app-system-defaults","version":"0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776225,"updateDate":1508870776225,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":426441,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163885	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163885	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1510674163886	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510674163888	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 10.12.0
+1510674163888	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1510674163889	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{0c99c09a-99ae-4425-b19d-ef267b6e8390}","location":"app-system-defaults","version":"10.12.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776231,"updateDate":1508870776231,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":714554,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163889	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163889	addons.manager	DEBUG	Registering startup change 'installed' for shield-recipe-client@mozilla.org
+1510674163890	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510674163893	addons.xpi	DEBUG	Calling bootstrap method install on shield-recipe-client@mozilla.org version 65
+1510674163893	addons.xpi-utils	DEBUG	Make addon app-system-defaults:shield-recipe-client@mozilla.org visible
+1510674163893	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{82d3bcb7-e69b-4c0f-a767-a680efaa1e45}","location":"app-system-defaults","version":"65","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776234,"updateDate":1508870776234,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":362690,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163894	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163894	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1510674163895	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510674163898	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1510674163898	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1510674163898	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{176f51f6-4372-414a-86fc-08d98ab39f7d}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776234,"updateDate":1508870776234,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163899	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163899	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1510674163899	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{b8a28ab3-0608-4b73-8c4d-134917651e8d}","location":"app-global","version":"56.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1508870776201,"updateDate":1508870776201,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":7147,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163900	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163900	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{8dda5f86-cad0-4b15-91ed-34e0b1f39803}","location":"app-system-defaults","version":"0.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776210,"updateDate":1508870776210,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":1280298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163900	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{b5094c70-fb87-4034-bdc7-d927622d4327}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776210,"updateDate":1508870776210,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163901	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{eb00827b-904f-4e81-8700-3bdc78fcb4d1}","location":"app-system-defaults","version":"1.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776211,"updateDate":1508870776211,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5781,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163901	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{8284f534-ddc5-4573-89c6-90b1b92cfa30}","location":"app-system-defaults","version":"3.00","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776211,"updateDate":1508870776211,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","skinnable":false,"size":13712,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163901	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{549df3b5-622d-47e5-a190-e3378bbe9cbc}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776218,"updateDate":1508870776218,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":1002025,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163902	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{3a661145-e19b-4a78-b681-446308fc027e}","location":"app-system-defaults","version":"0.9.3","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776219,"updateDate":1508870776219,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":16802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163902	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{63833add-a8e5-421a-ba2b-2769a6ca4945}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776222,"updateDate":1508870776222,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":335807,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163902	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{c5bd0e9a-eb52-4a79-a658-4dc5827fa056}","location":"app-system-defaults","version":"0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776225,"updateDate":1508870776225,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":426441,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163902	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{0c99c09a-99ae-4425-b19d-ef267b6e8390}","location":"app-system-defaults","version":"10.12.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776231,"updateDate":1508870776231,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":714554,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163903	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{82d3bcb7-e69b-4c0f-a767-a680efaa1e45}","location":"app-system-defaults","version":"65","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776234,"updateDate":1508870776234,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":362690,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163904	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{176f51f6-4372-414a-86fc-08d98ab39f7d}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776234,"updateDate":1508870776234,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163904	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{b8a28ab3-0608-4b73-8c4d-134917651e8d}","location":"app-global","version":"56.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1508870776201,"updateDate":1508870776201,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":7147,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0.2","maxVersion":"56.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null}
+1510674163904	DeferredSave.extensions.json	DEBUG	Save changes
+1510674163904	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1510674163904	addons.xpi-utils	DEBUG	Updating add-on states
+1510674163911	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510674163911	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 0.0.0
+1510674163912	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510674163913	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1510674163914	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510674163915	addons.xpi	DEBUG	Calling bootstrap method startup on clicktoplay-rollout@mozilla.org version 1.4
+1510674163915	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510674163916	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 3.00
+1510674163916	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510674163917	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1510674163963	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510674163964	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.3
+1510674163965	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510674163966	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1510674163966	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510674163967	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 0.1
+1510674163967	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510674163968	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 10.12.0
+1510674163969	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510674163970	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 65
+1510674163979	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510674163980	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1510674163987	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1510674163988	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1510674163988	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1510674163988	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1510674163988	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1510674163989	addons.manager	DEBUG	Starting provider: GMPProvider
+1510674163997	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1510674163998	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1510674163998	addons.manager	DEBUG	Starting provider: PluginProvider
+1510674163998	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1510674163998	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1510674163999	addons.manager	DEBUG	Completed startup sequence
+1510674164359	Marionette	INFO	Enabled via --marionette
+1510674164498	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1510674164498	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1510674164498	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1510674164718	DeferredSave.extensions.json	DEBUG	Write succeeded
+1510674164719	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 22
+1510674164719	DeferredSave.extensions.json	DEBUG	Starting timer
+1510674164743	DeferredSave.extensions.json	DEBUG	Starting write
+1510674164818	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164818	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1510674164863	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164864	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164865	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164868	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164872	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164874	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164876	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164877	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164894	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164896	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164898	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164900	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164901	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164904	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164906	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164907	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164908	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164908	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164909	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164912	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164913	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164914	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164915	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164916	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164916	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164917	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164918	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164919	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164920	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164922	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164923	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164924	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164929	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164931	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164932	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164934	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164935	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164938	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164939	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164940	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164943	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164944	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164946	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164949	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164950	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164951	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164957	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674164973	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674165013	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1510674165316	DeferredSave.extensions.json	DEBUG	Write succeeded
+1510674165559	DeferredSave.webext.sc.lz4	DEBUG	Save changes
 Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
-[Parent 9432] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13224] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
-[Child 9772] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 9772] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-1510134986000	Marionette	INFO	Listening on port 57209
-1510134986271	Marionette	WARN	TLS certificate errors will be ignored for this session
-1510134986312	Marionette	DEBUG	Register listener.js for window 6442450945
-1510134990857	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1510134991785	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1510134991786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1510134991805	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510134991818	Marionette	DEBUG	Received DOM event "pageshow" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
+[Child 8444] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8444] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1510674166696	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1510674166696	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1510674166696	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1510674166698	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510674166699	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510674166699	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1510674166699	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510674166699	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510674166699	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510674166699	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510674166700	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510674166700	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510674166700	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510674166700	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510674166701	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1510674166701	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1510674166702	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1510674166702	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1510674166702	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1510674166703	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1510674166703	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1510674166704	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1510674166704	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1510674166704	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1510674166705	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1510674166705	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510674166706	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1510674166706	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1510674166990	Marionette	INFO	Listening on port 64030
+1510674167247	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.2/20171024165158/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1510674167493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510674167538	Marionette	DEBUG	Register listener.js for window 4294967297
+1510674167592	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510674167793	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510674167794	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510674167820	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
+1510674167855	Marionette	DEBUG	Received DOM event "pageshow" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
+1510674167970	addons.productaddons	INFO	Completed downloading document
+1510674169632	addons.productaddons	INFO	downloadXHR File download. status=200
+1510674169638	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\huyru\AppData\Local\Temp\tmpaddon-97f03f
+1510674169824	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1510674169828	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1510674171192	addons.productaddons	INFO	downloadXHR File download. status=200
+1510674171194	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\huyru\AppData\Local\Temp\tmpaddon-ecabba
 Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
 JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1510135006042	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135301493	Marionette	DEBUG	Received DOM event "beforeunload" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135303139	Marionette	DEBUG	Received DOM event "pagehide" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135303140	Marionette	DEBUG	Received DOM event "unload" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1510135303506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135303517	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450950"
-1510135303527	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450952"
-1510135303938	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450964"
-1510135304040	Marionette	DEBUG	Received DOM event "pageshow" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135310219	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135377927	Marionette	DEBUG	Received DOM event "beforeunload" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135378910	Marionette	DEBUG	Received DOM event "pagehide" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135378911	Marionette	DEBUG	Received DOM event "unload" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1510135379138	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135379152	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450961"
-1510135379153	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450963"
-1510135379591	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450973"
-1510135379731	Marionette	DEBUG	Received DOM event "pageshow" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135382766	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135556707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135556937	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135556976	Marionette	DEBUG	Received DOM event "beforeunload" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135558344	Marionette	DEBUG	Received DOM event "pagehide" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135558344	Marionette	DEBUG	Received DOM event "unload" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1510135558488	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450970"
-1510135558489	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450972"
-1510135558623	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135559019	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450983"
-1510135559177	Marionette	DEBUG	Received DOM event "pageshow" for "https://backend.homeblockcoin.com/backoffice/?next=/finances/ico/"
-1510135577171	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135602985	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135603216	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135603452	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135603688	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135642784	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135643152	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1510135841385	Marionette	DEBUG	Register listener.js for window 6442451001
 JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1510136113654	Marionette	DEBUG	Register listener.js for window 8589934593
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1510674484533	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1510674484534	addons.xpi	DEBUG	Calling bootstrap method shutdown on shield-recipe-client@mozilla.org version 65
+1510674484535	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 10.12.0
+1510674484554	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 0.1
+1510674484556	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1510674484557	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.3
+1510674484558	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1510674484561	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 3.00
+1510674484563	addons.xpi	DEBUG	Calling bootstrap method shutdown on clicktoplay-rollout@mozilla.org version 1.4
+1510674484564	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1510674484565	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 0.0.0
+[Parent 13224] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
-[Child 10172] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 10172] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://backend.homeblockcoin.com/static/backoffice/assets/plugins/jquery/jquery-migrate-1.1.0.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-[Parent 9432] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9452] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9452] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10844] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1510674484697	addons.manager	DEBUG	shutdown
+1510674484698	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1510674484698	addons.xpi	DEBUG	shutdown
+1510674484698	addons.xpi-utils	DEBUG	shutdown
+1510674484698	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1510674484698	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1510674484699	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1510674484700	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1510674484700	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1510674484714	addons.manager	DEBUG	Async provider shutdown done
+Unable to read VR Path Registry from C:\Users\huyru\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 11332] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-ner because no navigation has been detected
-1509980271129	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1509980281431	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975220975	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967329"
-1509975220976	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
-1509975221269	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3482579"
-1509975222320	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3482579"
-1509975222402	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3482579"
-1509975222766	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3482579"
-1509975222767	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3482579"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975222950	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
-1509975222951	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
-1509975223219	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3482578"
-1509975224347	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3482578"
-1509975224426	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3482578"
-1509975224788	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3482578"
-1509975224788	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3482578"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975225000	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967343"
-1509975225006	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967345"
-1509975225215	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3487837"
-1509975226294	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3487837"
-1509975226404	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3487837"
-1509975226766	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3487837"
-1509975226767	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3487837"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975226929	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
-1509975226930	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
-1509975227224	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3482577"
-1509975228738	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3482577"
-1509975228822	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3482577"
-1509975229186	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3482577"
-1509975229187	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3482577"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975229394	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967357"
-1509975229395	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967359"
-1509975229845	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3460299"
-1509975230864	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3460299"
-1509975231247	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3460299"
-1509975231655	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3460299"
-1509975231656	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3460299"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975231850	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967364"
-1509975231850	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967366"
-1509975232257	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3460297"
-1509975233948	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967378"
-1509975233949	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967379"
-1509975235054	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3460297"
-1509975235177	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3460297"
-1509975235874	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3460297"
-1509975235889	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3460297"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975236091	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967396"
-1509975236092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967386"
-1509975236092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967397"
-1509975236093	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967388"
-1509975236094	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967371"
-1509975236094	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967373"
-1509975236095	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967390"
-1509975236095	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967377"
-1509975236095	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967380"
-1509975236096	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967393"
-1509975236354	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3493108"
-1509975238338	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3493108"
-1509975238562	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3493108"
-1509975238926	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3493108"
-1509975238926	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3493108"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975239222	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
-1509975239222	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
-1509975239787	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3493107"
-1509975241097	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967422"
-JavaScript error: http://nfemo.com/click-DQD2N6LA-NJFQB94O?bt=25&tl=1&sa=5a0064ca4cbe3f61986727ed-RL-997&sa2=5a0064ca4cbe3f61986727ed-RL-1083&sa3=5a0064ca4cbe3f61986727ed-RL-1336&sa4=lij&sa5=listal.com, line 33: SecurityError: The operation is insecure.
-JavaScript error: http://www.google-analytics.com/cx/api.js, line 3: SecurityError: The operation is insecure.
-JavaScript error: http://www.lazada.vn/?offer_id=501&affiliate_id=167855&offer_name=VN+-+PB+Homepage_0&affiliate_name=BeautyMe+Marketplace+%28M%29+Sdn+Bhd&transaction_id=102337a15ba26938552e2e4e5cd5b9&offer_ref=_xxvo0000000at0000&aff_source=59d234e5b6920d0dc868ce44, line 518: SecurityError: The operation is insecure.
-JavaScript error: http://dev.visualwebsiteoptimizer.com/j.php?a=160616&u=http%3A%2F%2Fwww.lazada.vn%2F%3Foffer_id%3D501%26affiliate_id%3D167855%26offer_name%3DVN%2B-%2BPB%2BHomepage_0%26affiliate_name%3DBeautyMe%2BMarketplace%2B%2528M%2529%2BSdn%2BBhd%26transaction_id%3D102337a15ba26938552e2e4e5cd5b9%26offer_ref%3D_xxvo0000000at0000%26aff_source%3D59d234e5b6920d0dc868ce44&r=0.7622703205762819, line 1: SecurityError: The operation is insecure.
-JavaScript error: http://www.lazada.vn/?offer_id=501&affiliate_id=167855&offer_name=VN+-+PB+Homepage_0&affiliate_name=BeautyMe+Marketplace+%28M%29+Sdn+Bhd&transaction_id=102337a15ba26938552e2e4e5cd5b9&offer_ref=_xxvo0000000at0000&aff_source=59d234e5b6920d0dc868ce44, line 20657: SecurityError: The operation is insecure.
-JavaScript error: http://vn-live-03.slatic.net/homepage/js/tracking/resource_performance-09c73dc9e8.js, line 57: SecurityError: The operation is insecure.
-JavaScript error: http://vn-live-01.slatic.net/homepage/build/desktop-index-ceefcd00e9.js, line 11: SecurityError: The operation is insecure.
-JavaScript error: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.vi.cdYQF0ekfpk.O/m=client/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNfhVQQW2qpVSCpyy7HFOWbGTQ-AQ/cb=gapi.loaded_0, line 16: TypeError: c is undefined
-1509975249641	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3493107"
-1509975249876	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3493107"
-JavaScript error: http://www.lazada.vn/?offer_id=501&affiliate_id=167855&offer_name=VN+-+PB+Homepage_0&affiliate_name=BeautyMe+Marketplace+%28M%29+Sdn+Bhd&transaction_id=102337a15ba26938552e2e4e5cd5b9&offer_ref=_xxvo0000000at0000&aff_source=59d234e5b6920d0dc868ce44, line 1: SecurityError: The operation is insecure.
-JavaScript error: http://bat.bing.com/bat.js, line 1: SecurityError: The operation is insecure.
-JavaScript error: http://bat.bing.com/bat.js, line 1: SecurityError: The operation is insecure.
-JavaScript error: http://script.crazyegg.com/pages/scripts/0018/7036.js?419437, line 1: SecurityError: The operation is insecure.
-1509975250555	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3493107"
-1509975250567	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3493107"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975250913	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967434"
-1509975250915	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967436"
-1509975250922	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967428"
-1509975250925	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967444"
-1509975250927	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
-1509975250929	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967445"
-1509975250932	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967446"
-1509975250934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967440"
-1509975250934	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967441"
-1509975250936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967423"
-1509975250938	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967409"
-1509975250939	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967419"
-1509975250940	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967411"
-1509975250941	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967412"
-1509975250942	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967415"
-1509975250943	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967424"
-1509975250944	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967432"
-1509975251342	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3530518"
-1509975252344	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3530518"
-1509975252612	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3530518"
-1509975253010	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3530518"
-1509975253018	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3530518"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975253426	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967476"
-1509975253427	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967478"
-1509975253428	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967466"
-1509975253429	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967468"
-1509975253430	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967480"
-1509975253430	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967474"
-1509975253430	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967472"
-1509975253686	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3530517"
-1509975254995	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967491"
-1509975255006	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967492"
-1509975255759	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3530517"
-1509975255987	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3530517"
-1509975256338	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3530517"
-1509975256358	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3530517"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975256676	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967499"
-1509975256677	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967507"
-1509975256678	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967501"
-1509975256679	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967483"
-1509975256680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967485"
-1509975256680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967493"
-1509975256680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967512"
-1509975256681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967510"
-1509975256681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967497"
-1509975256681	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967489"
-1509975256682	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967505"
-1509975257091	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3530519"
-1509975258257	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967524"
-1509975258258	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967525"
-1509975259435	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3530519"
-1509975259698	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3530519"
-1509975260070	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3530519"
-1509975260077	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3530519"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975260565	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967538"
-1509975260566	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967530"
-1509975260568	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967540"
-1509975260570	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967532"
-1509975260570	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967515"
-1509975260571	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967517"
-1509975260572	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967526"
-1509975260572	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967521"
-1509975260573	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967536"
-1509975260785	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3706065"
-1509975262128	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3706065"
-1509975262207	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3706065"
-1509975262562	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3706065"
-1509975262562	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3706065"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975262749	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967543"
-1509975262766	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967545"
-1509975263025	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3706063"
-1509975264553	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3706063"
-1509975264991	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3706063"
-1509975265411	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3706063"
-1509975265412	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3706063"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975266082	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967550"
-1509975266090	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967552"
-1509975266536	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3706064"
-1509975267456	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3706064"
-1509975267621	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3706064"
-1509975267999	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3706064"
-1509975268000	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3706064"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975268195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967557"
-1509975268196	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967559"
-1509975268771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3726802"
-1509975270555	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3726802"
-1509975270843	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3726802"
-1509975271180	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3726802"
-1509975271181	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3726802"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975271576	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967564"
-1509975271577	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967566"
-1509975271955	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737749"
-1509975273066	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737749"
-1509975273168	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737749"
-1509975273527	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737749"
-1509975273528	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737749"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975273748	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967571"
-1509975273764	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967573"
-1509975274005	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737750"
-1509975275602	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737750"
-1509975275830	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737750"
-1509975276216	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737750"
-1509975276218	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737750"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975276413	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967578"
-1509975276414	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967580"
-1509975276733	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737753"
-1509975278071	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737753"
-1509975278189	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737753"
-1509975278698	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737753"
-1509975278700	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737753"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975279093	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967585"
-1509975279094	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967587"
-1509975279547	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737755"
-1509975281243	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737755"
-1509975281660	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737755"
-1509975282103	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737755"
-1509975282104	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737755"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975282348	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967592"
-1509975282366	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967594"
-1509975282798	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737758"
-1509975284622	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737758"
-1509975284739	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737758"
-1509975285248	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737758"
-1509975285248	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737758"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975285527	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967599"
-1509975285528	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967601"
-1509975285732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737760"
-1509975287616	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737760"
-1509975287872	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737760"
-1509975288217	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737760"
-1509975288218	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737760"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975288411	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967606"
-1509975288412	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967608"
-1509975288699	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737761"
-1509975291620	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737761"
-1509975291918	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737761"
-1509975292269	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737761"
-1509975292271	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737761"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975292458	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967613"
-1509975292459	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967615"
-1509975292837	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3742042"
-1509975295027	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3742042"
-1509975295149	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3742042"
-1509975295566	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3742042"
-1509975295567	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3742042"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975295817	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967620"
-1509975295817	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967622"
-1509975296238	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737747"
-1509975299933	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737747"
-1509975300220	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737747"
-1509975300723	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737747"
-1509975300724	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737747"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975300911	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967627"
-1509975300914	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967629"
-1509975301216	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3737746"
-1509975304980	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3737746"
-1509975305055	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3737746"
-1509975305676	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3737746"
-1509975305676	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3737746"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975305910	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967634"
-1509975305911	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967636"
-1509975306171	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3731676"
-1509975309673	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3731676"
-1509975309750	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3731676"
-1509975310550	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3731676"
-1509975310554	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3731676"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
-1509975310739	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967641"
-1509975310740	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967643"
-1509975311002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3789535"
-1509975312203	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.listal.com/viewimage/3789535"
-1509975312303	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.listal.com/viewimage/3789535"
-1509975312631	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.listal.com/viewimage/3789535"
-1509975312631	Marionette	DEBUG	Received DOM event "unload" for "http://www.listal.com/viewimage/3789535"
-JavaScript warning: http://www.listal.com/min/f=jsnew/dropdownmenu2.01.js,jsnew/jquery.min.js,jsnew/jquery-ui.min.js,jsnew/jquery.ui.touch-punch.min.js,jsnew/jquery.Jcrop.min.js,jsnew/jquery.autosize.js,jsnew/jquery.fancybox.pack.js,jsnew/algoliasearch.min.js,jsnew/hogan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
+gan-3.0.1.js,jsnew/typeahead.jquery.js,jsnew/autocompletesearch.js,jsnew/slidebars.js,jsnew/jquery.iframe-transport.js,jsnew/jquery.fileupload.js,jsnew/load-image.min.js,jsnew/facebook.js,jsnew/shared.js,jsnew/security.js,jsnew/modals.js,jsnew/responsive.js,jsnew/jquerystuff.js,jsnew/errors.js,jsnew/reportitem.js,jsnew/file-upload.js,jsnew/pictures.js,jsnew/item-page.js,jsnew/content.js,jsnew/header-images.js,jsnew/custom-lists.js,jsnew/text-editor.js,jsnew/list-notes.js,jsnew/add-to-list.js,jsnew/reviews.js,jsnew/profile.js,jsnew/search.js,jsnew/email.js,jsnew/groups.js, line 659: unreachable code after return statement
 1509975312778	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967648"
 1509975312778	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967650"
 1509975313792	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.listal.com/viewimage/3789532"
